@@ -29,77 +29,91 @@ document.addEventListener("DOMContentLoaded", function () {
             }
             elem.getBoundingClientRect();
 
-            if ($(elem).hasClass('cable-1')){
-                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 0.3s linear';
-                elem.style.strokeDashoffset = '0';
-            }
-            if ($(elem).hasClass('cable-2')){
-                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 0.3s linear';
-                setTimeout(function (){
-                    elem.style.strokeDashoffset = '0';
-                },300);
-            }
-            if ($(elem).hasClass('cable-3')){
-                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 0.3s linear';
-                setTimeout(function (){
-                    elem.style.strokeDashoffset = '0';
-                },600);
-            }
-            if ($(elem).hasClass('cable-4')){
-                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 0.5s linear';
-                setTimeout(function (){
-                    elem.style.strokeDashoffset = '0';
-                },900);
-            }
-            if ($(elem).hasClass('cable-5')){
-                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 0.6s linear';
-                setTimeout(function (){
-                    elem.style.strokeDashoffset = '0';
-                },1400);
-            }
-            if ($(elem).hasClass('cable-6')){
-                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 0.6s linear';
-                setTimeout(function (){
-                    elem.style.strokeDashoffset = '0';
-                },2000);
-            }
             if ($(elem).hasClass('cable-7')){
                 elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 1s linear';
                 setTimeout(function (){
                     elem.style.strokeDashoffset = '0';
-                },2000);
+                },0);
             }
             if ($(elem).hasClass('cable-8')){
                 elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 1s linear';
                 setTimeout(function (){
                     elem.style.strokeDashoffset = '0';
-                },2000);
+                },0);
             }
-            if ($(elem).hasClass('cable-9')){
-                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 0.8s linear';
-                setTimeout(function (){
-                    elem.style.strokeDashoffset = '0';
-                },3000);
-            }
-            if ($(elem).hasClass('cable-10')){
-                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 0.8s linear';
-                setTimeout(function (){
-                    elem.style.strokeDashoffset = '0';
-                },3000);
-            }
-            if ($(elem).hasClass('cable-11')){
+
+
+            if ($(elem).hasClass('cable-6')){
                 elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 0.6s linear';
                 setTimeout(function (){
                     elem.style.strokeDashoffset = '0';
-                },3800);
+                },1000);
+            }
+            if ($(elem).hasClass('cable-5')){
+                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 0.6s linear';
+                setTimeout(function (){
+                    elem.style.strokeDashoffset = '0';
+                },1000);
+            }
+            if ($(elem).hasClass('cable-4')){
+                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 0.5s linear';
+                setTimeout(function (){
+                    elem.style.strokeDashoffset = '0';
+                },1600);
+            }
+            if ($(elem).hasClass('cable-3')){
+                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 0.3s linear';
+                setTimeout(function (){
+                    elem.style.strokeDashoffset = '0';
+                },2100);
+            }
+            if ($(elem).hasClass('cable-2')){
+                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 0.3s linear';
+                setTimeout(function (){
+                    elem.style.strokeDashoffset = '0';
+                },2400);
+            }
+            if ($(elem).hasClass('cable-1')){
+                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 0.3s linear';
+                setTimeout(function (){
+                    elem.style.strokeDashoffset = '0';
+                },2700);
+            }
+
+
+
+
+
+            if ($(elem).hasClass('cable-9')){
+                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 1s linear';
+                setTimeout(function (){
+                    elem.style.strokeDashoffset = '0';
+                },0);
+            }
+            if ($(elem).hasClass('cable-10')){
+                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 1s linear';
+                setTimeout(function (){
+                    elem.style.strokeDashoffset = '0';
+                },0);
+            }
+            if ($(elem).hasClass('cable-11')){
+                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 0.8s linear';
+                setTimeout(function (){
+                    elem.style.strokeDashoffset = '0';
+                },1000);
             }
             if ($(elem).hasClass('cable-12')){
                 elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 1s linear';
                 setTimeout(function (){
                     elem.style.strokeDashoffset = '0';
-                },4400);
+                },1800);
             }
-
+            if ($(elem).hasClass('cable-13')){
+                elem.style.transition = elem.style.WebkitTransition = 'stroke-dashoffset 1s linear';
+                setTimeout(function (){
+                    elem.style.strokeDashoffset = '0';
+                },1800);
+            }
         });
     }
 
